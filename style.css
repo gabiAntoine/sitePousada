@@ -1,0 +1,86 @@
+body{
+  background-color: rgb(3, 210, 165);
+  text-align: center;
+  font-family: sans-serif;
+  margin-bottom: 40px;
+  background-image: url(assets/praiabg.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+h1{
+  font-size: 60px;
+  margin-bottom: 10px;
+  margin-top: 40px;
+  color: #fff;
+  text-shadow: 1px 1px 2px black; 
+}
+h2{
+  margin-bottom: 30px;
+  font-size: 35px;
+  color: #fff;
+  text-shadow: 1px 1px 2px black; 
+}
+h3{
+  font-size: 25px;
+}
+section#Praia{
+  border-top: 5px solid rgb(255, 255, 255);
+
+}
+img{
+  width: 500px;
+  height: 300px;
+ outline:solid 2px white;
+}
+
+section#Praia h3{
+  color: rgb(210, 210, 24);
+  text-shadow: 1px 1px 2px black; 
+}
+section#Waterpark h3{
+  color: rgb(20, 62, 126);
+  text-shadow: 1px 1px 2px black; 
+
+}
+section#Floresta h3{
+  text-shadow: 1px 1px 1px black; 
+  color: brown;
+}
+section p{
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #fff;
+  text-shadow: 1px 1px 2px black; 
+}
+a.button{
+  border: 3px solid transparent;
+  border-radius: 3px;
+  text-decoration: none;
+  appearance: button;
+  -moz-appearance: button;
+  -webkit-appearance: button;
+  color: white;
+  background-color: blue;
+}
+li a{
+  text-decoration: none;
+  color: initial;
+  padding: 10px
+}
+ul{
+  list-style-type: none;
+  background-color: rgb(255, 255, 255);
+  padding: 10px 15px;
+  margin: 0px -10px 0 -10px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+li{
+  display: inline-block;
+  margin:0 30px;
+}
+li a:hover{
+  background: darkblue;
+  color: whitesmoke;
+}
